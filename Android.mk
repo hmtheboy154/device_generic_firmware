@@ -10,7 +10,7 @@
 
 LOCAL_PATH := $(my-dir)
 
-SYMLINKS := $(subst $(LOCAL_PATH),$(TARGET_OUT)/lib/firmware,$(shell find $(LOCAL_PATH) -type l))
+SYMLINKS := $(subst $(LOCAL_PATH),$(TARGET_OUT)/lib/firmware,$(filter-out $(LOCAL_PATH)/.git/%,$(shell find $(LOCAL_PATH) -type l)))
 
 $(SYMLINKS): FW_PATH := $(LOCAL_PATH)
 $(SYMLINKS):
