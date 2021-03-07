@@ -2716,6 +2716,8 @@ File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
@@ -3061,6 +3063,14 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
     fail could be a problem.
     Although RTL8723D devices are 802.11n device, they are also supported
     by rtw88 because the hardware arch is similar.
+
+--------------------------------------------------------------------------
+
+Driver: rtw89 - Realtek 802.11ax WLAN driver for RTL8852A
+
+File: rtw89/rtw8852a_fw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -4923,6 +4933,15 @@ Version: 20210122002730
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7921 - MediaTek MT7921 bluetooth chipset
+
+File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
+Version: 20210223142901
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
@@ -5204,6 +5223,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.2018.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.2304.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.2304.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.2304.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.2406.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.2406.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.2406.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5338,3 +5360,13 @@ Driver: lt9611uxc - Lontium DSI to HDMI bridge
 File: lt9611uxc_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
+
+--------------------------------------------------------------------------
+
+Driver: wfx - Silicon Labs Wi-Fi Transceiver
+
+File: silabs/wfm_wf200_C0.sec
+Version: 3.12.1
+
+Licence: Redistributable. See silabs/LICENCE.wf200 for details.
+Originates from https://github.com/SiliconLabs/wfx-firmware
