@@ -578,14 +578,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.24.17.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.24.17.0.bin
+File: cxgb4/t4fw-1.25.4.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.25.4.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.24.17.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.24.17.0.bin
-File: cxgb4/t6fw-1.24.17.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.24.17.0.bin
+File: cxgb4/t5fw-1.25.4.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.25.4.0.bin
+File: cxgb4/t6fw-1.25.4.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.25.4.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -2489,6 +2489,16 @@ File: amdgpu/navy_flounder_smc.bin
 File: amdgpu/navy_flounder_sos.bin
 File: amdgpu/navy_flounder_ta.bin
 File: amdgpu/navy_flounder_vcn.bin
+File: amdgpu/arcturus_asd.bin
+File: amdgpu/arcturus_gpu_info.bin
+File: amdgpu/arcturus_mec2.bin
+File: amdgpu/arcturus_mec.bin
+File: amdgpu/arcturus_rlc.bin
+File: amdgpu/arcturus_sdma.bin
+File: amdgpu/arcturus_smc.bin
+File: amdgpu/arcturus_sos.bin
+File: amdgpu/arcturus_ta.bin
+File: amdgpu/arcturus_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2747,8 +2757,10 @@ Licence: Redistributable. See LICENCE.cypress for details.
 File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
+File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
 Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
+File: "brcm/brcmfmac43430a0-sdio.ilife-S806.txt"
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
 File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
@@ -2759,10 +2771,12 @@ Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.t
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
+Link: brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
 Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\ B.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
+Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ Compute\ Module\ 4.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 File: brcm/brcmfmac4356-sdio.vamrs,rock960.txt
@@ -3247,6 +3261,9 @@ File: rtl_nic/rtl8153a-2.fw
 File: rtl_nic/rtl8153a-3.fw
 File: rtl_nic/rtl8153a-4.fw
 File: rtl_nic/rtl8153b-2.fw
+File: rtl_nic/rtl8153c-1.fw
+File: rtl_nic/rtl8156a-2.fw
+File: rtl_nic/rtl8156b-2.fw
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3613,7 +3630,7 @@ Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_50_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_65_00001
+Version: BT_StonePeak_D1_REL_66_1167
 File: intel/ibt-11-5.ddc
 Version: LnP/SfP_REL0522
 File: intel/ibt-11-5.sfi
@@ -3623,13 +3640,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL17064
+Version: BT_JeffersonPeak_B0_B0_REL19718
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL17064
+Version: BT_JeffersonPeak_B0_B0_REL19718
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL17064
+Version: BT_JeffersonPeak_B0_B0_REL19718
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL17064
+Version: BT_JeffersonPeak_B0_B0_REL19718
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3639,13 +3656,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL17064
+Version: BT_ThunderPeak_B0_B0_REL19718
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL17064
+Version: BT_ThunderPeak_B0_B0_REL19718
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL17064
+Version: BT_ThunderPeak_B0_B0_REL19718
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL17064
+Version: BT_ThunderPeak_B0_B0_REL19718
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3655,57 +3672,57 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL21113
+Version: BT_CyclonePeak_A0_REL23926
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL21113
+Version: BT_Quasar_REL23926
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL21113
+Version: BT_Quasar_REL23926
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL21113
+Version: BT_Quasar_REL23926
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL21113
+Version: BT_Quasar_REL23926
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL21113
+Version: BT_HarrisonPeak_REL23926
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL21046
+Version: BT_TyphoonPeak_REL23884
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL21046
+Version: BT_TyphoonPeak_REL23884
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3715,9 +3732,11 @@ File: rtl_bt/rtl8723a_fw.bin
 File: rtl_bt/rtl8723b_fw.bin
 File: rtl_bt/rtl8723bs_fw.bin
 File: rtl_bt/rtl8723bs_config-OBDA8723.bin
+Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config-OBDA8723.bin
 File: rtl_bt/rtl8761a_fw.bin
 File: rtl_bt/rtl8812ae_fw.bin
 File: rtl_bt/rtl8821a_fw.bin
+Link: rtl_bt/rtl8821a_config.bin -> rtl8821c_config.bin
 File: rtl_bt/rtl8822b_fw.bin
 File: rtl_bt/rtl8822b_config.bin
 File: rtl_bt/rtl8723d_fw.bin
@@ -5052,7 +5071,7 @@ Link: netronome/flower/nic_AMDA0078-0012_2x40.nffw -> nic_AMDA0058.nffw
 Link: netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw -> nic_AMDA0058.nffw
 Link: netronome/flower/nic_AMDA0078-0012_8x10.nffw -> nic_AMDA0058.nffw
 
-Version: AOTC-2.12.A.13
+Version: AOTC-2.14.A.6
 
 File: netronome/bpf/nic_AMDA0081-0001_1x40.nffw
 File: netronome/bpf/nic_AMDA0097-0001_2x40.nffw
@@ -5203,7 +5222,7 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
-http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210118133815-v2.zip
+http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
 https://github.com/andersson/pil-squasher
@@ -5264,6 +5283,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.2304.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.2406.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.2406.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.2406.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.2438.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.2438.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.2438.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5388,6 +5410,7 @@ provided this copyright notice is accompanying it.
 Driver: prestera - Marvell driver for Prestera family ASIC devices
 
 File: mrvl/prestera/mvsw_prestera_fw-v2.0.img
+File: mrvl/prestera/mvsw_prestera_fw-v3.0.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
