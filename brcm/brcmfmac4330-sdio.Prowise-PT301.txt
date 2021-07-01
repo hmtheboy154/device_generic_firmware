@@ -4,11 +4,7 @@
 # Prowise PT301 tablet
 aa2g=1
 aa5g=1
-<<<<<<< HEAD
-ag0=0x40   
-=======
 ag0=0x40
->>>>>>> x86/pie-x86
 ag1=0xBF
 boardflags=0x10080a00
 # boardflags3 is not set

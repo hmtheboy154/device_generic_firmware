@@ -100,11 +100,7 @@
 
 	sge_timer_value = 5, 10, 20, 50, 100, 200 # SGE_TIMER_VALUE* in usecs
 
-<<<<<<< HEAD
 	
-=======
-
->>>>>>> x86/pie-x86
 	reg[0x1124] = 0x00000400/0x00000400 # SGE_CONTROL2, enable VFIFO; if
 					# SGE_VFIFO_SIZE is not set, then
 					# firmware will set it up in function
@@ -121,11 +117,7 @@
 	reg[0x113c] = 0x0002ffc0	# SGE_VFIFO_SIZE, set to 0x2ffc0 which
 					# prompts the firmware to set it up in
 					# function of number of egress queues
-<<<<<<< HEAD
 					# used 
-=======
-					# used
->>>>>>> x86/pie-x86
 
 	# enable TP_OUT_CONFIG.IPIDSPLITMODE
 	reg[0x7d04] = 0x00010000/0x00010000
@@ -333,25 +325,15 @@
 # PF2_INT = 8			# NCPUS
 # PF3_INT = 8			# NCPUS
 # PF0_3_INT = 32		# PF0_INT + PF1_INT + PF2_INT + PF3_INT
-<<<<<<< HEAD
 # 
-=======
-#
->>>>>>> x86/pie-x86
 # PF4_INT = 128			# NMSIX_UNIFIED
 # PF5_INT = 32			# NMSIX_STORAGE
 # PF6_INT = 32			# NMSIX_STORAGE
 # PF7_INT = 0			# Nothing Assigned
 # PF4_7_INT = 192		# PF4_INT + PF5_INT + PF6_INT + PF7_INT
-<<<<<<< HEAD
 # 
 # PF0_7_INT = 224		# PF0_3_INT + PF4_7_INT
 # 
-=======
-#
-# PF0_7_INT = 224		# PF0_3_INT + PF4_7_INT
-#
->>>>>>> x86/pie-x86
 # With the above we can get 17 VFs/PF0-3 (limited by 336 MPS TCAM entries)
 # but we'll lower that to 16 to make our total 64 and a nice power of 2 ...
 #

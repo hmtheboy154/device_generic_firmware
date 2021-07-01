@@ -170,15 +170,9 @@
 
 	# LE_DB_CONFIG
 	reg[0x19c04] = 0x00000000/0x00440000 # LE Server SRAM disabled
-<<<<<<< HEAD
 					     # LE IPv4 compression disabled 
 	# LE_DB_HASH_CONFIG
 	reg[0x19c28] = 0x00800000/0x01f00000 # LE Hash bucket size 8, 
-=======
-					     # LE IPv4 compression disabled
-	# LE_DB_HASH_CONFIG
-	reg[0x19c28] = 0x00800000/0x01f00000 # LE Hash bucket size 8,
->>>>>>> x86/pie-x86
 
 	# ULP_TX_CONFIG
 	reg[0x8dc0] = 0x00000104/0x00000104 # Enable ITT on PI err
@@ -430,11 +424,7 @@
 	cmask = all		# access to all channels
 	pmask = all		# access to all four ports ...
 	nethofld = 1024		# number of user mode ethernet flow contexts
-<<<<<<< HEAD
 	ncrypto_lookaside = 16  # Number of lookaside flow contexts 
-=======
-	ncrypto_lookaside = 16  # Number of lookaside flow contexts
->>>>>>> x86/pie-x86
 	nclip = 320		# number of clip region entries
 	nfilter = 496		# number of filter region entries
 	nserver = 496		# number of server region entries

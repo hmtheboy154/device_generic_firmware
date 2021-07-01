@@ -13,11 +13,7 @@ btc_params22=8000
 btc_params83=9000
 btc_params84=4500
 btc_params8=15000
-<<<<<<< HEAD
-cck2gpo=0x2222 
-=======
 cck2gpo=0x2222
->>>>>>> x86/pie-x86
 cckPwrOffset=3
 cckpapden=0
 ccode=X2
@@ -31,11 +27,7 @@ gain_settle_dly_5g=4
 iqcalidx5g=50
 iqlocalidx5g=40
 loflag=0
-<<<<<<< HEAD
-lpbckmode5g=1 
-=======
 lpbckmode5g=1
->>>>>>> x86/pie-x86
 macaddr=00:90:4c:c5:12:38
 manfid=0x2d0
 maxp2ga0=76
@@ -67,11 +59,7 @@ pa0b0=6957 default
 pa0b1=-808
 pa0b2=-178
 pa0itssit=0x20
-<<<<<<< HEAD
-pa1b0=5372 
-=======
 pa1b0=5372
->>>>>>> x86/pie-x86
 pa1b1=-671
 pa1b2=-212
 pa1hib0=5620
