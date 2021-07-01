@@ -128,7 +128,11 @@
 
 	# Percentage of dynamic memory (in either the EDRAM or external MEM)
 	# to use for TP RX payload
+<<<<<<< HEAD
 	tp_pmrx = 34 
+=======
+	tp_pmrx = 34
+>>>>>>> x86/pie-x86
 
 	# TP RX payload page size
 	tp_pmrx_pagesize = 64K
@@ -150,7 +154,11 @@
 	tp_mtus = 88, 256, 512, 576, 808, 1024, 1280, 1488, 1500, 2002, 2048, 4096, 4352, 8192, 9000, 9600
 
 	# ULPRX iSCSI Page Sizes
+<<<<<<< HEAD
 	reg[0x19168] = 0x04020100 # 64K, 16K, 8K and 4K 
+=======
+	reg[0x19168] = 0x04020100 # 64K, 16K, 8K and 4K
+>>>>>>> x86/pie-x86
 
 # Some "definitions" to make the rest of this a bit more readable.  We support
 # 4 ports, 3 functions (NIC, FCoE and iSCSI), scaling up to 8 "CPU Queue Sets"
@@ -180,7 +188,11 @@
 # NEQ_NIC = 64			# NIC Egress Queues (FL, ETHCTRL/TX)
 # NMPSTCAM_NIC = 16		# NIC MPS TCAM Entries (NPORTS*4)
 # NMSIX_NIC = 32		# NIC MSI-X Interrupt Vectors (FLIQ)
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> x86/pie-x86
 # NVI_OFLD = 0			# Offload uses NIC function to access ports
 # NFLIQ_OFLD = 16		# Offload Ingress Queues with Free Lists
 # NETHCTRL_OFLD = 0		# Offload Ethernet Control/TX Queues
@@ -284,15 +296,25 @@
 # PF2_INT = 8			# NCPUS
 # PF3_INT = 8			# NCPUS
 # PF0_3_INT = 32		# PF0_INT + PF1_INT + PF2_INT + PF3_INT
+<<<<<<< HEAD
 # 
+=======
+#
+>>>>>>> x86/pie-x86
 # PF4_INT = 128			# NMSIX_UNIFIED
 # PF5_INT = 32			# NMSIX_STORAGE
 # PF6_INT = 32			# NMSIX_STORAGE
 # PF7_INT = 0			# Nothing Assigned
 # PF4_7_INT = 192		# PF4_INT + PF5_INT + PF6_INT + PF7_INT
+<<<<<<< HEAD
 # 
 # PF0_7_INT = 224		# PF0_3_INT + PF4_7_INT
 # 
+=======
+#
+# PF0_7_INT = 224		# PF0_3_INT + PF4_7_INT
+#
+>>>>>>> x86/pie-x86
 # With the above we can get 17 VFs/PF0-3 (limited by 336 MPS TCAM entries)
 # but we'll lower that to 16 to make our total 64 and a nice power of 2 ...
 #

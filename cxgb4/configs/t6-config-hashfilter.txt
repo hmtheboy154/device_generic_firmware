@@ -176,7 +176,11 @@
 	reg[0x19c78] = 0x08000000/0x0e000000 # HASH_ACTV_HIT = 4
 
 	# LE_DB_HASH_CONFIG
+<<<<<<< HEAD
 	reg[0x19c28] = 0x00800000/0x01f00000 # LE Hash bucket size 8, 
+=======
+	reg[0x19c28] = 0x00800000/0x01f00000 # LE Hash bucket size 8,
+>>>>>>> x86/pie-x86
 
 	# MC configuration
 	mc_mode_brc[0] = 0		# mc0 - 1: enable BRC, 0: enable RBC, 2: enable BRBC
