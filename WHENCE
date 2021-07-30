@@ -6182,3 +6182,12 @@ File: silead/gsl3692-jumper-ezpad-6-pro.fw
 File: silead/gsl3692-pov-mobii-wintab-p1006w-v10.fw
 File: silead/gsl3692-pov-mobii-wintab-p800w.fw
 File: silead/gsl3692-teclast-tbook11.fw
+
+Driver: cs35l41 - Cirrus Amp firmware and Jupiter tuning files
+
+File: cs35l41-dsp1-spk-cali.bin
+File: cs35l41-dsp1-spk-cali.wmfw
+File: cs35l41-dsp1-spk-prot.bin
+File: cs35l41-dsp1-spk-prot.wmfw
+
+Licence: Unknown, TBD
