@@ -1027,7 +1027,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.5e069cbd.0
+Version: 46.4e1ceb39.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1045,7 +1045,7 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.5e069cbd.0
+Version: 46.4e1ceb39.0
 
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
@@ -1231,11 +1231,72 @@ Version: 63.c04f3485.0
 File: iwlwifi-ty-a0-gf-a0-63.ucode
 Version: 63.c04f3485.0
 
+File: iwlwifi-cc-a0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-b0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-Qu-c0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
+
+File: iwlwifi-QuZ-a0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
+
 File: iwlwifi-ty-a0-gf-a0-66.ucode
-Version: 66.55c64978.0
+Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-67.ucode
 Version: 67.8f59b80b.0
+
+File: iwlwifi-cc-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-b0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-b0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-c0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-Qu-c0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-QuZ-a0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-QuZ-a0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-ty-a0-gf-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf4-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf-a0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-hr-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-jf-b0-68.ucode
+Version: 68.01d30b0c.0
+
+File: iwlwifi-so-a0-gf-a0.pnvm
+
+File: iwlwifi-so-a0-gf4-a0.pnvm
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
@@ -3759,13 +3820,13 @@ Version: BT_WindStormPeak_REL1236
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1236
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20028
+Version: BT_JeffersonPeak_B0_B0_REL20054
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3775,13 +3836,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20028
+Version: BT_ThunderPeak_B0_B0_REL20054
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3791,92 +3852,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL34713
+Version: BT_CyclonePeak_A0_REL35819
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL34173
+Version: BT_Quasar_REL35819
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL34713
+Version: BT_HarrisonPeak_REL35819
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL35927
+Version: BT_TyphoonPeak_REL36030
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL35927
+Version: BT_TyphoonPeak_REL36030
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL35927
+Version: BT_Solar_GfP2_REL36030
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL35927
+Version: BT_Solar_GfP2_REL36030
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL35927
+Version: BT_SolarF_GfP2_REL36030
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL35927
+Version: BT_SolarF_GfP2_REL36030
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL35927
+Version: BT_Solar_JfP1_REL36030
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL35927
+Version: BT_Solar_JfP1_REL36030
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL35927
+Version: BT_SolarF_JfP1_REL36030
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL35927
+Version: BT_SolarF_JfP1_REL36030
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL35927
+Version: BT_Solar_JfP2_REL36030
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL35927
+Version: BT_Solar_JfP2_REL36030
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL35927
+Version: BT_SolarF_JfP2_REL36030
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL35927
+Version: BT_SolarF_JfP2_REL36030
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL35927
+Version: BT_Solar_HrP2_REL36030
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL35927
+Version: BT_Solar_HrP2_REL36030
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL35927
+Version: BT_SolarF_HrP2_REL36030
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL35927
+Version: BT_SolarF_HrP2_REL36030
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4363,9 +4424,11 @@ File: qca/rampatch_usb_00130201.bin
 File: qca/nvm_usb_00130201.bin
 File: qca/nvm_usb_00130201_010a.bin
 File: qca/nvm_usb_00130201_010b.bin
+File: qca/nvm_usb_00130201_0303.bin
 File: qca/nvm_usb_00130201_gf.bin
 File: qca/nvm_usb_00130201_gf_010a.bin
 File: qca/nvm_usb_00130201_gf_010b.bin
+File: qca/nvm_usb_00130201_gf_0303.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4466,6 +4529,9 @@ Version: Guc API/ABI ver 49 - release 0 for Skylake
 File: i915/skl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Skylake
 
+File: i915/skl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
@@ -4505,6 +4571,9 @@ Version: Guc API/APB ver 49 - release 0 for Broxton
 File: i915/bxt_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Broxton
 
+File: i915/bxt_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
@@ -4516,6 +4585,9 @@ Version: Guc API/APB ver 49 release 0 for Comet Lake
 
 File: i915/cml_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Comet Lake
+
+File: i915/cml_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -4532,6 +4604,9 @@ Version: Guc API/APB ver 49 release 0 for Kabylake
 File: i915/kbl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Kabylake
 
+File: i915/kbl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
@@ -4543,6 +4618,9 @@ Version: Guc API/APB ver 49 release 0 for Geminilake
 
 File: i915/glk_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Geminilake
+
+File: i915/glk_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Geminilake
 
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
@@ -4580,6 +4658,9 @@ Version: Guc API/APB ver 49 release 0 for Icelake
 File: i915/icl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Icelake
 
+File: i915/icl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Icelake
+
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
 
@@ -4607,6 +4688,9 @@ Version: Guc API/APB ver 49 release 0 for Elkhartlake
 File: i915/ehl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Elkhartlake
 
+File: i915/ehl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Elkhartlake
+
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
@@ -4618,6 +4702,9 @@ Version: Guc API/APB ver 49 release 0 for Tigerlake
 
 File: i915/tgl_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for Tigerlake
+
+File: i915/tgl_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4646,6 +4733,9 @@ Version: Guc API/APB ver 49 release 0 for DG1
 File: i915/dg1_guc_62.0.0.bin
 Version: GuC API/APB ver 62.0.0 for DG1
 
+File: i915/dg1_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for DG1
+
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
 
@@ -4669,6 +4759,9 @@ Version: DMC API/APB ver 2 release 14 for Alderlake P
 
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
+
+File: i915/adlp_guc_69.0.3.bin
+Version: GuC API/APB ver 69.0.3 for Alderlake P
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5214,11 +5307,15 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916
 
 File: mediatek/mt7915_wm.bin
-Version: 20201105
+Version: 20211222184052
 File: mediatek/mt7915_wa.bin
-Version: 20201105
+Version: 20211222184111
 File: mediatek/mt7915_rom_patch.bin
-Version: 20201105
+Version: 20211222184017a
+File: mediatek/mt7915_eeprom.bin
+Version: 20200821
+File: mediatek/mt7915_eeprom_dbdc.bin
+Version: 20200821
 
 File: mediatek/mt7916_wm.bin
 Version: 20211230135720
@@ -5236,9 +5333,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20211222190839a
+Version: 20220110230855a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20211222190917
+Version: 20220110230951
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5247,7 +5344,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20211222191101
+Version: 20220110231230
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5587,6 +5684,9 @@ File: mellanox/mlxsw_spectrum3-30.2008.3326.mfa2
 File: mellanox/mlxsw_spectrum-13.2010.1006.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.1006.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.1006.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1232.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5744,3 +5844,23 @@ Driver: wave5 - Chips&Media, Inc. video codec driver
 File: cnm/wave521c_j721s2_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
+
+---------------------------------------------------------------------------
+
+Driver: rvu_cptpf - Marvell CPT driver
+
+File: mrvl/cpt01/ae.out
+File: mrvl/cpt01/se.out
+File: mrvl/cpt01/ie.out
+File: mrvl/cpt02/ae.out
+File: mrvl/cpt02/se.out
+File: mrvl/cpt02/ie.out
+File: mrvl/cpt03/ae.out
+File: mrvl/cpt03/se.out
+File: mrvl/cpt03/ie.out
+File: mrvl/cpt04/ae.out
+File: mrvl/cpt04/se.out
+File: mrvl/cpt04/ie.out
+Version: v1.21
+
+Licence: Redistributable. See LICENCE.Marvell for details.
