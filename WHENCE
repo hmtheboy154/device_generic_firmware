@@ -2674,6 +2674,14 @@ File: amdgpu/cyan_skillfish2_pfp.bin
 File: amdgpu/cyan_skillfish2_rlc.bin
 File: amdgpu/cyan_skillfish2_sdma.bin
 File: amdgpu/cyan_skillfish2_sdma1.bin
+File: amdgpu/aldebaran_mec2.bin
+File: amdgpu/aldebaran_mec.bin
+File: amdgpu/aldebaran_rlc.bin
+File: amdgpu/aldebaran_sdma.bin
+File: amdgpu/aldebaran_smc.bin
+File: amdgpu/aldebaran_sos.bin
+File: amdgpu/aldebaran_ta.bin
+File: amdgpu/aldebaran_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -4067,7 +4075,7 @@ Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2019-12-18
 File: amd-ucode/microcode_amd_fam19h.bin
-Version: 2021-11-15
+Version: 2022-02-14
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -4757,6 +4765,9 @@ Version: DMC API/APB ver 2 release 12 for Alderlake P
 File: i915/adlp_dmc_ver2_14.bin
 Version: DMC API/APB ver 2 release 14 for Alderlake P
 
+File: i915/adlp_dmc_ver2_16.bin
+Version: DMC API/APB ver 2 release 16 for Alderlake P
+
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
 
@@ -5333,9 +5344,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20220110230855a
+Version: 20220209150832a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20220110230951
+Version: 20220209150915
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5864,3 +5875,14 @@ File: mrvl/cpt04/ie.out
 Version: v1.21
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+
+---------------------------------------------------------------------------
+
+Driver: amphion - Amphion VPU(Video Processing Unit) Codec IP driver
+
+File: amphion/vpu/vpu_fw_imx8_dec.bin
+Version: 1.7.4
+File: amphion/vpu/vpu_fw_imx8_enc.bin
+Version: 1.3.1
+
+Licence: Redistributable. See LICENSE.amphion_vpu for details
