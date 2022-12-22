@@ -4,6 +4,9 @@
 # Copy firmware files based on WHENCE list
 #
 
+[ -z "$FIRMWARE_DIR" ] && FIRMWARE_DIR=device/generic/firmware
+
+cd $FIRMWARE_DIR
 verbose=:
 prune=no
 
