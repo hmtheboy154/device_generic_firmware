@@ -2967,6 +2967,13 @@ Link: brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sd
 Link: brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+File: brcm/BCM4343A0.hcd
+File: brcm/brcmfmac43430-sdio.bin
+File: brcm/brcmfmac43430-sdio.txt
+File: brcm/brcmfmac43430a0-sdio.jumper-EZpad.txt
+File: brcm/brcmfmac43455-sdio.txt
+File: brcm/brcmfmac4356-pcie.txt
+File: brcm/brcmfmac4371-pcie.txt
 
 Licence: GPLv2. See GPL-2 for details.
 
@@ -6262,3 +6269,63 @@ Version: 35.00.03
 Licence: Redistributable. See LICENSE.nxp for details
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 --------------------------------------------------------------------------
+
+File: silead/gsl1680-a082-q8-700.fw
+File: silead/gsl1680-a082-q8-a70.fw
+File: silead/gsl1680-b482-q8-a70.fw
+File: silead/gsl1680-b482-q8-d702.fw
+File: silead/gsl1680-chuwi-hi10-air.fw
+File: silead/gsl1680-chuwi-hi10-pro.fw
+File: silead/gsl1680-chuwi-hi10plus.fw
+File: silead/gsl1680-chuwi-hi8.fw
+File: silead/gsl1680-chuwi-surbook-mini.fw
+File: silead/gsl1680-connect-tablet9.fw
+File: silead/gsl1680-gp-electronic-t701.fw
+File: silead/gsl1680-inet86dz.fw
+File: silead/gsl1680-irbis-tw118.fw
+File: silead/gsl1680-mpman-converter9.fw
+File: silead/gsl1680-myria-my8307.fw
+File: silead/gsl1680-nuvision-nes11.fw
+File: silead/gsl1680-onda-v820w-32g.fw
+File: silead/gsl1680-pipo-w11.fw
+File: silead/gsl1680-pipo-w2s.fw
+File: silead/gsl1680-polaroid-mid2407pxe03.fw
+File: silead/gsl1680-techbite-arc-11-6.fw
+File: silead/gsl1680-teclast-x3-plus.fw
+File: silead/gsl1680-trekstor-primebook-c11.fw
+File: silead/gsl1680-trekstor-primebook-c13.fw
+File: silead/gsl1680-trekstor-primetab-t13b.fw
+File: silead/gsl1680-vinga-twizzle_j116.fw
+File: silead/gsl1686-dexp-ursus-7w-rev2.fw
+File: silead/gsl1686-dexp-ursus-7w.fw
+File: silead/gsl1686-digma_citi_e200.fw
+File: silead/gsl1686-surftab-wintron70-st70416-6.fw
+File: silead/gsl1686-teclast_x98plus2.fw
+File: silead/gsl3670-cube-iwork8-air.fw
+File: silead/gsl3670-itworks-tw891.fw
+File: silead/gsl3670-polaroid-mid2809pxe04.fw
+File: silead/gsl3670-surftab-twin-10-1-st10432-8.fw
+File: silead/gsl3675-ga10h.fw
+File: silead/gsl3675-gt90h.fw
+File: silead/gsl3676-chuwi-hi8-air.fw
+File: silead/gsl3676-chuwi-vi8.fw
+File: silead/gsl3676-irbis_tw36.fw
+File: silead/gsl3676-jumper-ezpad-mini3.fw
+File: silead/gsl3676-onda-obook-20-plus.fw
+File: silead/gsl3676-onda-v80-plus-v3.fw
+File: silead/gsl3676-onda-v891-v5.fw
+File: silead/gsl3676-onda-v891w-v3.fw
+File: silead/gsl3680-chuwi-hi8-pro.fw
+File: silead/gsl3680-chuwi-vi10.fw
+File: silead/gsl3680-irbis_tw90.fw
+File: silead/gsl3680-jumper-ezpad-7.fw
+File: silead/gsl3680-mpman-mpwin895cl.fw
+File: silead/gsl3680-onda-v891w-v1.fw
+File: silead/gsl3680-pov-mobii-wintab-p800w-v20.fw
+File: silead/gsl3680-predia-basic.fw
+File: silead/gsl3692-jumper-ezpad-6-m4.fw
+File: silead/gsl3692-jumper-ezpad-6-pro-b.fw
+File: silead/gsl3692-jumper-ezpad-6-pro.fw
+File: silead/gsl3692-pov-mobii-wintab-p1006w-v10.fw
+File: silead/gsl3692-pov-mobii-wintab-p800w.fw
+File: silead/gsl3692-teclast-tbook11.fw
