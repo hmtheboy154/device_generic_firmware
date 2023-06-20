@@ -4708,6 +4708,9 @@ Version: DMC API/APB ver 2 release 12 for Meteorlake
 File: i915/mtl_guc_70.bin
 Version: GuC API/APB ver 70.6.6 for Meteorlake
 
+File: i915/mtl_huc_gsc.bin
+Version: HuC API/APB ver 8.5.0 for Meteorlake
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
@@ -5197,7 +5200,7 @@ Version: v0.0.9
 File: mediatek/mt8192/scp.img
 Version: v2.0.20536
 File: mediatek/mt8195/scp.img
-Version: v2.0.20536
+Version: v2.0.11966
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5365,9 +5368,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20230331110902a
+Version: 20230526130917a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20230331110939
+Version: 20230526130958
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5376,7 +5379,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20230331111156
+Version: 20230526131214
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5385,9 +5388,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20230509203612a
+Version: 20230530123154a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20230509203655
+Version: 20230530123236
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5396,7 +5399,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20230509203838
+Version: 20230530123531
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5636,7 +5639,7 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
@@ -5650,13 +5653,14 @@ https://github.com/andersson/pil-squasher
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
-File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modem_nm.mbn
 File: qcom/sdm845/modemuw.jsn
+Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 
 modem.mbn has been converted from 28-modem/modem.* using
 https://github.com/andersson/pil-squasher
@@ -6123,14 +6127,14 @@ File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
@@ -6139,14 +6143,14 @@ File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin -> cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-r0.bin
