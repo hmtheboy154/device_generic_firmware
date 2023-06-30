@@ -3897,14 +3897,19 @@ License: Redistributable. See LICENSE.amd-sev for details
 Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 
 File: amd-ucode/microcode_amd.bin
+Raw: amd-ucode/microcode_amd.bin
 Version: 2013-07-10
 File: amd-ucode/microcode_amd_fam15h.bin
+Raw: amd-ucode/microcode_amd_fam15h.bin
 Version: 2018-05-24
 File: amd-ucode/microcode_amd_fam16h.bin
+Raw: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
+Raw: amd-ucode/microcode_amd_fam17h.bin
 Version: 2023-04-13
 File: amd-ucode/microcode_amd_fam19h.bin
+Raw: amd-ucode/microcode_amd_fam19h.bin
 Version: 2023-01-31
 File: amd-ucode/README
 
@@ -5139,7 +5144,7 @@ File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
 File: atmel/wilc1000_wifi_firmware.bin
 File: atmel/wilc1000_wifi_firmware-1.bin
-Version: 15.6
+Version: 16.0
 
 License: Redistributable. See LICENSE.atmel for details
 
@@ -5837,7 +5842,7 @@ Link: intel/ice/ddp/ice.pkg -> ice-1.3.30.0.pkg
 License: Redistributable. See LICENSE.ice for details
 
 File: intel/ice/ddp-comms/ice_comms-1.3.40.0.pkg
-File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.7.0.pkg
+File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.10.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
