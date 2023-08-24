@@ -99,7 +99,7 @@ grep -E '^Link:' WHENCE | sed -e 's/^Link: *//g;s/-> //g' | while read f d; do
     else
         directory="$destdir/$(dirname "$f")"
         install -d "$directory"
-        target="$(cd "$directory" && realpath -m -s "$d")"
+        target="$(cd "$directory" && /bin/realpath -m -s "$d")"
         if test -d "$target"; then
             $verbose "creating link $f -> $d"
             ln -s "$d" "$destdir/$f"
